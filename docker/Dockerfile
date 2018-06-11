@@ -1,5 +1,5 @@
 FROM php:7.1-fpm
-LABEL maintainer="Paul Redmond"
+LABEL maintainer="Philip Larsson"
 
 RUN curl --silent --show-error --fail --location \
       --header "Accept: application/tar+gzip, application/x-gzip, application/oc\
